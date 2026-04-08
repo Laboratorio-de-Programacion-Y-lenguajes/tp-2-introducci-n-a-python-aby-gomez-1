@@ -130,19 +130,19 @@ https://gemini.google.com/share/c9024c7795bf
 >Una vez que te responda, valida si mi razonamiento es correcto y, si tengo errores de sintaxis en mis propuestas, señálalos directamente sin darme la solución corregida."
 
 **Resultado obtenido**:
-
+tests ok
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+https://gemini.google.com/share/09ff0253d891
 
 ---
 
 ### 5 - loops.py
 
 **Herramienta**: 
-
+Gemini
 **Prompt usado**:
-> 
+> Actúa como un verificador de lógica de algoritmos en Python 3.13. Estoy diseñando funciones para trabajar con bucles (loops) y necesito tu análisis técnico antes de codear.Mis objetivos son:Implementar es_primo(n) de forma eficiente. ¿Cuál es el límite matemático óptimo para el rango del bucle y por qué no debería iterar hasta n?Implementar fibonacci(n) devolviendo una lista. Explícame el concepto de 'asignación múltiple' en Python ($a, b = b, a + b$) y cómo ayuda a simplificar este algoritmo.Para suma_digitos(n), compárame la eficiencia de usar un bucle sobre el string del número vs. usar operadores aritméticos (// y %).Regla: No generes el código completo. Explícame los conceptos y enumera los casos borde (como n=0 o n=1) que mis tests deberían cubrir
 
 **Resultado obtenido**:
 
