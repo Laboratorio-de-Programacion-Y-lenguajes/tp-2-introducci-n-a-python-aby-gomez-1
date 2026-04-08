@@ -32,15 +32,26 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 ### 1 - variables.py
 
 **Herramienta**: 
-
+Gemini
 **Prompt usado**:
-> 
+> Patron Tutor
+>Actúa como un tutor experto en Python 3.13. Mi objetivo es resolver un ejercicio de programación para aprender los fundamentos por mi cuenta.
+
+>Reglas estrictas:
+
+>No me entregues el código completo de la solución bajo ninguna circunstancia.
+
+>Si te presento un error de sintaxis, explica por qué ocurre y dame un ejemplo genérico similar, pero no corrijas mi función directamente.
+
+>Si no sé cómo avanzar, hazme preguntas que me ayuden a razonar la lógica (loops, condicionales, etc.).
+
+>Valida mi razonamiento y señala errores conceptuales de forma directa y técnica.
 
 **Resultado obtenido**:
-
+Tests ok
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Solo lo use para consultas de sintaxis
 
 ---
 
