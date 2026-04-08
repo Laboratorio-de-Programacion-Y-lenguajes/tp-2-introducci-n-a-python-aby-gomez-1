@@ -188,10 +188,22 @@ Gemini
 **Herramienta**: 
 
 **Prompt usado**:
-> 
+>Actúa como un revisor de código experto en Python 3.13. Estoy trabajando en un módulo de procesamiento de texto y necesito validar mi lógica antes de finalizar los scripts.
+
+>Analicemos estas funciones:
+
+>Cifrado César: Explícame técnicamente para qué sirven las funciones ord() y chr() y por qué se utiliza el operador módulo % 26 en la fórmula del desplazamiento. ¿Cómo asegura esto que el cifrado 'dé la vuelta' al abecedario?
+
+>Palíndromos: Para la función es_palindromo, ¿qué impacto tiene el orden de las operaciones .replace() y .lower()? ¿Hay algún caso borde con tildes o caracteres especiales que deba tener en cuenta?
+
+>Capitalización: Explícame cómo funciona la combinación de .join() con un generador (split) en la función capitalizar_palabras. ¿Es esta la forma más eficiente en Python?
+
+>Conteo de vocales: ¿Existe alguna diferencia de rendimiento entre usar un generador sum(1 for char in texto...) y convertir el texto a una lista primero?
+
+>Instrucción: No escribas el código final. Provee una explicación técnica y directa que me ayude a documentar mi proceso de aprendizaje en el archivo PROMPTS.md.
 
 **Resultado obtenido**:
-
+Explicaciones ok
 
 **¿Lo usaste tal cual o lo modificaste?**
 
@@ -203,7 +215,10 @@ Gemini
 Respondé brevemente (3-5 oraciones):
 
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
-en general prefiero formular promps orientadoa la enseñanza
+En general prefiero formular promps orientadoa la enseñanza, con este metodo me apoyo mas en la reflexion y la conduccion hacia la logica 
+de solucion del problema
 - ¿En qué casos la IA fue útil y en cuáles no?
-para consultar conceptos es util
+Es util cuando se le da un prompt mas refinado, si es algo mas general sus respuestas pueden ser correctas pero menos claras
 - ¿Qué harías diferente la próxima vez?
+Refinaria los detalles del contexto, pediria encarecidamente que no me de el codigo pero de otra manera(aunque le suelo pedir que me ayude a razonar
+y no resuelva el problema, si se extiende la conversacion envia el codigo resuelto)
