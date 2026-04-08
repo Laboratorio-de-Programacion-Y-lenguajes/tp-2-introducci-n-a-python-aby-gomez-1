@@ -203,5 +203,7 @@ Gemini
 Respondé brevemente (3-5 oraciones):
 
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
+en general prefiero formular promps orientadoa la enseñanza
 - ¿En qué casos la IA fue útil y en cuáles no?
+para consultar conceptos es util
 - ¿Qué harías diferente la próxima vez?
