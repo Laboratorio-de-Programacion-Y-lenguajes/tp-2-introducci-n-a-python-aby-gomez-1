@@ -60,7 +60,7 @@ Solo lo use para consultas de sintaxis
 **Herramienta**: 
 
 **Prompt usado**:
-
+Se utilizo el mismo promt que el anterior
 
 **Resultado obtenido**:
 
@@ -72,8 +72,8 @@ Solo lo use para consultas de sintaxis
 
 ### 3 - listas.py
 
-**Herramienta**: 
-
+**Herramienta**:
+Gemini
 **Prompt usado**:
 > Patrón: Verificador Cognitivo / Tutor Técnico
 
