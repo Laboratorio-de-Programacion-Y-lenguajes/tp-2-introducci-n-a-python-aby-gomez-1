@@ -11,24 +11,24 @@ def crear_saludo(nombre: str) -> str:
     Retorna un saludo personalizado.
     Ejemplo: crear_saludo("Ana") -> "Hola, Ana!"
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    return f"Hola, {nombre}!"
 
 
 def suma_enteros(a: int, b: int) -> int:
     """
     Retorna la suma de dos enteros.
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    return a+b
 
 
 def es_mayor_de_edad(edad: int) -> bool:
     """
     Retorna True si edad >= 18, False caso contrario.
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    if edad >= 18 : 
+        return True
+    else:
+        return False
 
 
 def tipo_de_dato(valor) -> str:
@@ -37,8 +37,7 @@ def tipo_de_dato(valor) -> str:
     Ejemplo: tipo_de_dato(42) -> "int"
              tipo_de_dato("hola") -> "str"
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    return type(valor).__name__
 
 
 def convertir_a_float(valor: str) -> float:
@@ -46,5 +45,4 @@ def convertir_a_float(valor: str) -> float:
     Convierte un string numérico a float.
     Ejemplo: convertir_a_float("3.14") -> 3.14
     """
-    # TU CÓDIGO AQUÍ
-    pass
+    return float(valor)
